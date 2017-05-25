@@ -1,14 +1,16 @@
 body{background-color:rgb(255, 255, 255);font:400 1em/1.38 Helvetica;color:rgb(0, 0, 0);}
 
-.page-index,.page-news{font-family:Helvetica;font-weight:400;line-height:1.38;color:rgb(0, 0, 0);}
-
-.container{position:relative;float:left;z-index:3;width:41%;height:320px;margin:-22px 0 0 14.33073%;}
-
 .image{display:block;float:left;width:48.7804878048%;height:auto;overflow:hidden;}
+
+.menu{position:absolute;top:30px;left:10%;z-index:6;width:5.19921875%;height:49px;}
 
 .text{font-size:1em;text-align:center;color:rgb(0, 0, 0);}
 
-._button{display:block;position:relative;float:left;clear:both;margin-left:10%;border-radius:3px;background-color:rgb(222, 222, 222);font-size:1em;text-align:center;color:rgb(0, 0, 0);}
+._button{display:block;float:left;width:99.0327380952%;border-radius:3px;background-color:rgb(222, 222, 222);font-size:1em;text-align:center;color:rgb(0, 0, 0);}
+
+.container-1{position:absolute;top:30px;left:10%;z-index:2;width:5.19921875%;height:49px;}
+
+.container-2{position:relative;float:left;clear:both;z-index:3;width:41%;height:320px;margin:8px 0 0 29.47917%;}
 
 .image-2{margin-left:2.43585%;}
 
@@ -16,6 +18,4 @@ body{background-color:rgb(255, 255, 255);font:400 1em/1.38 Helvetica;color:rgb(0
 
 .text-2{margin:25px auto 0;}
 
-._button-1{z-index:4;width:5.2%;margin-top:8px;}
-
-._button-2{z-index:5;width:5.19921875%;margin-top:5px;}
+.container ._button-4,.menu ._button-2{clear:both;margin-top:5px;}
