@@ -1,29 +1,27 @@
 body{background-color:rgb(255, 255, 255);font:400 1em/1.38 Helvetica;color:rgb(0, 0, 0);}
 
-.container{position:relative;float:left;clear:both;z-index:3;width:41%;height:320px;margin:8px 0 0 29.47917%;}
-
 .image{display:block;float:left;width:48.7804878048%;height:auto;overflow:hidden;}
 
-.menu{position:absolute;top:30px;left:10%;width:6%;}
+.menu{position:absolute;top:30px;left:10%;z-index:3;width:6%;}
 
 .text{font-size:1em;text-align:center;color:rgb(0, 0, 0);}
 
 ._button{display:block;float:left;border-radius:3px;background-color:rgb(222, 222, 222);font-size:1em;text-align:center;color:rgb(0, 0, 0);}
 
+._container{position:relative;float:left;clear:both;z-index:3;width:41%;height:320px;margin:8px 0 0 29.47917%;}
+
+.container-1{position:absolute;top:30px;left:10%;z-index:7;width:6%;}
+
+.container-1:hover{position:static;}
+
 .image-2{margin-left:2.43585%;}
-
-.menu-1{z-index:7;}
-
-.menu-1:hover{position:static;}
-
-.menu-2{z-index:3;}
 
 .text-1{float:left;width:20.4166666666%;min-height:20px;margin-left:39.79167%;text-shadow:1px 1px 5px rgba(0, 0, 0, .5);}
 
 .text-2{margin:25px auto 0;}
 
-.menu ._button-1,.menu ._button-4{width:99.0327380952%;}
+.container ._button-1,.menu ._button-4{width:99.0327380952%;}
 
-.menu ._button-2,.menu ._button-5{clear:both;width:99.0327380952%;margin-top:5px;}
+.container ._button-2,.menu ._button-5{clear:both;width:99.0327380952%;margin-top:5px;}
 
-.menu ._button-3,.menu ._button-6{clear:both;width:99.0232907588%;margin-top:5px;}
+.container ._button-3,.menu ._button-6{clear:both;width:99.0232907588%;margin-top:5px;}
