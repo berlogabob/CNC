@@ -1,0 +1,13 @@
+body{background-color:rgb(255, 255, 255);font:400 1em/1.38 Helvetica;color:rgb(0, 0, 0);}
+
+.container{width:41%;height:320px;margin:30px auto 0;}
+
+.image{display:block;float:left;width:48.7804878048%;height:auto;overflow:hidden;}
+
+.text{font-size:1em;text-align:center;color:rgb(0, 0, 0);}
+
+.image-2{margin-left:2.43585%;}
+
+.text-1{float:left;width:20.4166666666%;min-height:20px;margin-left:39.79167%;text-shadow:1px 1px 5px rgba(0, 0, 0, .5);}
+
+.text-2{margin:25px auto 0;}
