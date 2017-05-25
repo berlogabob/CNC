@@ -4,14 +4,11 @@ body {
   color: rgb(0, 0, 0);
 }
 
-._button {
-  display: block;
-  float: left;
-  width: 16%;
-  height: 40px;
-  border-radius: 3px;
-  background-color: rgb(222, 222, 222);
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, .5);
+.text {
+  width: 20.4166666666%;
+  min-height: 20px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
   font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
